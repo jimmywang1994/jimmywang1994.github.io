@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-03-28T09:13:29.209Z</updated>
+  <updated>2019-03-28T09:24:16.864Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -21,15 +21,15 @@
     <link href="http://yoursite.com/2019/03/28/%E6%96%B0%E7%9A%84%E4%B8%80%E7%AF%87%E6%96%87%E7%AB%A0/"/>
     <id>http://yoursite.com/2019/03/28/新的一篇文章/</id>
     <published>2019-03-28T09:06:19.000Z</published>
-    <updated>2019-03-28T09:13:29.209Z</updated>
+    <updated>2019-03-28T09:24:16.864Z</updated>
     
-    <content type="html"><![CDATA[<p>测试一张图片<br><a href="新的一篇文章/ercode.jpg"></a><br><img src="/2019/03/28/新的一篇文章/2019/03/28/新的一篇文章/ercode.jpg"></p>]]></content>
+    <content type="html"><![CDATA[<p>测试一张图片<br><img src="/2019/03/28/新的一篇文章/ercode.jpg" alt><br></p>]]></content>
     
     <summary type="html">
     
       
       
-        &lt;p&gt;测试一张图片&lt;br&gt;&lt;a href=&quot;新的一篇文章/ercode.jpg&quot;&gt;&lt;/a&gt;&lt;br&gt;&lt;img src=&quot;/2019/03/28/新的一篇文章/2019/03/28/新的一篇文章/ercode.jpg&quot;&gt;&lt;/p&gt;
+        &lt;p&gt;测试一张图片&lt;br&gt;&lt;img src=&quot;/2019/03/28/新的一篇文章/ercode.jpg&quot; alt&gt;&lt;br&gt;&lt;/p&gt;
 
       
     
