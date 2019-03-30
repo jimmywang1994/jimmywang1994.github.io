@@ -16,10 +16,13 @@
     <link rel="dns-prefetch" href="http://yoursite.com">
     <!--SEO-->
 
-    <meta name="keywords" content="Java,计算机,Spring,网络">
+    <meta name="keywords" content="Mysql">
 
 
-    <meta name="description" content="记录自己学习中的问题，分享学习的成果">
+    <meta name="description" content="今天我们来讲讲Mysql数据库优化
+1.Mysql索引1.索引的优点
+  为什么要创建索引？这是因为，创建索引可以大大提高系统的查询性能。 
+  第一、通过创建唯一性索引，可以保证数据库表中每一...">
 
 
 
@@ -31,7 +34,7 @@
     <!--Title-->
 
 
-<title>Archives | Wwei&#39;s Blog</title>
+<title>Mysql优化第一篇 | Wwei&#39;s Blog</title>
 
 
     <link rel="alternate" href="/atom.xml" title="Wwei&#39;s Blog" type="application/atom+xml">
@@ -132,201 +135,128 @@
     <section class="content-wrap">
         <div class="container">
             <div class="row">
-                <main class="col-md-8 main-content ">
-                    <div id="main">
-     <div class="timebox">
-          <div class="timeline">
-              <ul>
+                <main class="col-md-8 main-content m-post">
+                    <p id="process"></p>
+<article class="post">
+    <div class="post-head">
+        <h1 id="Mysql优化第一篇">
+            
+	            Mysql优化第一篇
+            
+        </h1>
+        <div class="post-meta">
+    
+        <span class="categories-meta fa-wrap">
+            <i class="fa fa-folder-open-o"></i>
+            <a class="category-link" href="/categories/其他/">其他</a>
+        </span>
+    
+
+    
+        <span class="fa-wrap">
+            <i class="fa fa-tags"></i>
+            <span class="tags-meta">
                 
+                    <a class="tag-link" href="/tags/Mysql/">Mysql</a>
                 
-                    
-                    
-                        
-                            
-                            <h2>2019</h2>
-                        
-                        
-                          <li>
-                        
-                            <h3>
-                              30<span>03月</span>
-                            </h3>
-                            <a href="/2019/03/30/Mysql优化第一篇/" title="Mysql优化第一篇" target="_blank">Mysql优化第一篇</a>
-                        </li>
-                    
-                
-                    
-                    
-                        
-                        
-                          <li>
-                        
-                            <h3>
-                              28<span>03月</span>
-                            </h3>
-                            <a href="/2019/03/28/新的一篇文章/" title="新的一篇文章" target="_blank">新的一篇文章</a>
-                        </li>
-                    
-                
-                    
-                    
-                        
-                        
-                          <li>
-                        
-                            <h3>
-                              28<span>03月</span>
-                            </h3>
-                            <a href="/2019/03/28/my-first-blog/" title="my-first-blog" target="_blank">my-first-blog</a>
-                        </li>
-                    
-                
-                    
-                    
-                        
-                        
-                          <li>
-                        
-                            <h3>
-                              27<span>03月</span>
-                            </h3>
-                            <a href="/2019/03/27/hello-world/" title="Hello World" target="_blank">Hello World</a>
-                        </li>
-                    
-                
-              </ul>
-          </div>
-    </div>
+            </span>
+        </span>
+    
+
+    
+        
+        <span class="fa-wrap">
+            <i class="fa fa-clock-o"></i>
+            <span class="date-meta">2019/03/30</span>
+        </span>
+        
+    
 </div>
+            
+            
+    </div>
+    
+    <div class="post-body post-content">
+        <p>今天我们来讲讲Mysql数据库优化</p>
+<h1 id="1-Mysql索引"><a href="#1-Mysql索引" class="headerlink" title="1.Mysql索引"></a>1.Mysql索引</h1><pre><code>1.索引的优点
+  为什么要创建索引？这是因为，创建索引可以大大提高系统的查询性能。 
+  第一、通过创建唯一性索引，可以保证数据库表中每一行数据的唯一性。 
+  第二、可以大大加快 数据的检索速度，这也是创建索引的最主要的原因。 
+  第三、可以加速表和表之间的连接，特别是在实现数据的参考完整性方面特别有意义。 
+  第四、在使用分组和排序子句进行数据检索时，同样可以显著减少查询中分组和排序的时间。 
+  第五、通过使用索引，可以在查询的过程中，使用查询优化器，提高系统的性能。
+2.索引的缺点
+    也许会有人要问：增加索引有如此多的优点，为什么不对表中的每一个列创建一个索引呢？这种想法固然有其合理性，然而也有其片面性。虽然，索引有许多优点， 但是，为表中的每一个列都增加索引，是非常不明智的。 这是因为，增加索引也有许多不利的一个方面:
+    第一、创建索引和维护索引要耗费时间，这种时间随着数据量的增加而增加。 
+    第二、索引需要占物理空间，除了数据表占数据空间之外，每一个索引还要占一定的物理空间。如果要建立聚簇索引，那么需要的空间就会更大。 
+    第三、当对表中的数据进行增加、删除和修改的时候，索引也要动态的维护，这样就降低了数据的维护速度。
+</code></pre>
+    </div>
+    
+    <div class="post-footer">
+        <div>
+            
+                转载声明：商业转载请联系作者获得授权,非商业转载请注明出处 © <a href target="_blank">Snippet</a>
+            
+        </div>
+        <div>
+            
+        </div>
+    </div>
+</article>
+
+<div class="article-nav prev-next-wrap clearfix">
+    
+    
+        <a href="/2019/03/28/新的一篇文章/" class="next-post btn btn-default" title="新的一篇文章">
+            <span class="hidden-lg">下一篇</span>
+            <span class="hidden-xs">新的一篇文章</span><i class="fa fa-angle-right fa-fw"></i>
+        </a>
+    
+</div>
+
+
+    <div id="comments">
+        
+	
+    <div id="vcomments" class="valine"></div>
+    <script src="//cdn1.lncld.net/static/js/3.0.4/av-min.js"></script>
+<script src="/assets/valine.min.js"></script>
+
+    <script>
+        new Valine({
+            av: AV,
+            el: '#vcomments',
+            appId: 'xOKV9J4UeQAtVkvnJC7Kq2Jn-gzGzoHsz',
+            appKey: 'erIpQac4azoCmgfBB7Dl9maa',
+            placeholder: '说点什么吧',
+            notify: false,
+            verify: false,
+            avatar: 'null',
+            meta: 'nick,mail'.split(','),
+            pageSize: '10',
+            path: window.location.pathname,
+            lang: 'zh_CN'.toLowerCase()
+        })
+    </script>
+
+
+    </div>
+
+
 
 
 
                 </main>
                 
-                    
-    <aside class="col-md-4 sidebar">
-        
-        
+                    <aside id="article-toc" role="navigation" class="col-md-4">
     <div class="widget">
-        <h3 class="title">Search</h3>
-        <div id="search-form">
-            <div id="result-mask" class="hide"></div>
-            <div class="search-area">
-                
-                    <input id="search-key" type="search" autocomplete="off" placeholder="Search What？">
-                    <button type="button" class="search-form-submit" id="search-local">localSearch</button>
-                
-                
-                    <form action="//google.com/search" method="get" accept-charset="UTF-8" class="search-form"><input type="search" name="q" class="search-form-input" placeholder="Google Search"><button type="submit" class="search-form-submit">谷歌搜索</button><input type="hidden" name="sitesearch" value="http://yoursite.com"></form>
-                
-            </div>
-            <div id="result-wrap" class="hide">
-                <div id="search-result"></div>
-            </div>
-            <div class="hide">
-                <template id="search-tpl">
-                    <div class="item">
-                        <a href="/{path}" title="{title}">
-                            <div class="title">{title}</div>
-                            <div class="content">{content}</div>
-                        </a>
-                    </div>
-                </template>
-            </div>
-        </div>
-    </div>
-
+        <h3 class="title">Table of Contents</h3>
         
-        
-    <div class="widget">
-        <h3 class="title">Notification</h3>
-        <div class="notification">
-            <p>
-    主题下载：<a href="https://github.com/shenliyang/hexo-theme-snippet" title="fork me" target="_blank">Snippet主题</a> <br>
-    主题使用：<a href="https://github.com/shenliyang/hexo-theme-snippet/blob/master/README.md#常见问题" title target="_blank">常见使用问题</a> <br>
-    支持主题：<a href="https://github.com/shenliyang/hexo-theme-snippet/stargazers">Star一下</a>
-</p>
-        </div>
-    </div>
-
-        
-        
-    <div class="widget">
-      <h3 class="title">Social</h3> 
-        <div class="content social">
-            
-	            <a href="//github.com/jimmywang1994" rel="external nofollow" title="Github" target="_blank">
-			    	<i class="git fa fa-git"></i>
-			    </a>
-            
-	            <a href="mailto:snippet@91h5.cc" rel="external nofollow" title="邮箱" target="_blank">
-			    	<i class="envelope-o fa fa-envelope-o"></i>
-			    </a>
-            
-	            <a href="/" rel="external nofollow" title="联系QQ" target="_blank">
-			    	<i class="qq fa fa-qq"></i>
-			    </a>
-            
-	            <a href="/" rel="external nofollow" title="微信" target="_blank">
-			    	<i class="weixin fa fa-weixin"></i>
-			    </a>
-            
-	            <a href="/" rel="external nofollow" title="QQ群" target="_blank">
-			    	<i class="users fa fa-users"></i>
-			    </a>
-            
-	            <a href="/atom.xml" rel="external nofollow" title="RSS" target="_blank">
-			    	<i class="feed fa fa-feed"></i>
-			    </a>
-            
-        </div>
-    </div>
-
-
-        
-        
-    <div class="widget">
-        <h3 class="title">Categories</h3>
-        <ul class="category-list"><li class="category-list-item"><a class="category-list-link" href="/categories/JAVA/"><i class="fa" aria-hidden="true">JAVA</i></a><span class="category-list-count">1</span></li><li class="category-list-item"><a class="category-list-link" href="/categories/其他/"><i class="fa" aria-hidden="true">其他</i></a><span class="category-list-count">2</span></li></ul>
-    </div>
-
-
-        
-        
-    <div class="widget">
-        <h3 class="title">Archives</h3>
-        <ul class="archive-list"><li class="archive-list-item"><a class="archive-list-link" href="/archives/2019/03/"><i class="fa" aria-hidden="true">2019年03月</i></a><span class="archive-list-count">4</span></li></ul>
-    </div>
-
-
-        
-        
-  <div class="widget">
-    <h3 class="title">Tag Cloud</h3>
-    <div class="content tag-cloud">
-        
-            <canvas width="300" height="300" id="tag-cloud-3d">
-                <a href="/tags/Mysql/" style="font-size: 10px;">Mysql</a>
-            </canvas>
+            <ol class="toc"><li class="toc-item toc-level-1"><a class="toc-link" href="#1-Mysql索引"><span class="toc-text">1.Mysql索引</span></a></li></ol>
         
     </div>
-  </div>
-
-
-        
-        
-    <div class="widget">
-        <h3 class="title">Friends</h3>
-        <div class="content friends-link">
-        
-            <a href="https://hexo.io/zh-cn/" class="fa" target="_blank">Hexo官网</a>
-        
-        </div>
-    </div>
-
-
-        
-    </aside>
+</aside>
 
                 
             </div>
@@ -369,8 +299,6 @@
     </div>
 </div>
 
-
-	<script src="/js/search.js?rev=@@hash"></script>
 
 
 
