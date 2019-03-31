@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://yoursite.com/"/>
-  <updated>2019-03-30T03:18:30.845Z</updated>
+  <updated>2019-03-31T05:41:27.817Z</updated>
   <id>http://yoursite.com/</id>
   
   <author>
@@ -15,6 +15,32 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>IDEA快捷键</title>
+    <link href="http://yoursite.com/2019/03/31/IDEA%E5%BF%AB%E6%8D%B7%E9%94%AE/"/>
+    <id>http://yoursite.com/2019/03/31/IDEA快捷键/</id>
+    <published>2019-03-31T05:36:32.000Z</published>
+    <updated>2019-03-31T05:41:27.817Z</updated>
+    
+    <content type="html"><![CDATA[<p>分享一个IDEA快捷键的设置<br><img src="/2019/03/31/IDEA快捷键/idea快捷键.jpg" alt><br></p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;分享一个IDEA快捷键的设置&lt;br&gt;&lt;img src=&quot;/2019/03/31/IDEA快捷键/idea快捷键.jpg&quot; alt&gt;&lt;br&gt;&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+      <category term="其他" scheme="http://yoursite.com/categories/%E5%85%B6%E4%BB%96/"/>
+    
+    
+      <category term="IDEA,教程" scheme="http://yoursite.com/tags/IDEA-%E6%95%99%E7%A8%8B/"/>
+    
+  </entry>
   
   <entry>
     <title>Mysql优化第一篇</title>
