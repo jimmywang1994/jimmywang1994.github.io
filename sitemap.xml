@@ -2,9 +2,23 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2019/06/25/jvm%E5%BF%85%E4%BC%9A%E7%9A%8417%E4%B8%AA%E5%8F%82%E6%95%B0/</loc>
+    
+    <lastmod>2019-06-25T15:58:27.795Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://yoursite.com/2019/04/27/JVM%E4%BC%98%E5%8C%96/</loc>
+    
+    <lastmod>2019-04-27T06:44:04.096Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2019/04/22/%E8%AF%BBhashmap%E6%BA%90%E7%A0%81/</loc>
     
-    <lastmod>2019-04-22T07:02:13.664Z</lastmod>
+    <lastmod>2019-04-23T02:45:01.438Z</lastmod>
     
   </url>
   
