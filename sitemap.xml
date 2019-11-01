@@ -2,9 +2,16 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://yoursite.com/2019/11/01/redis%E5%93%A8%E5%85%B5%E9%9B%86%E7%BE%A4%E6%90%AD%E5%BB%BA/</loc>
+    
+    <lastmod>2019-11-01T15:27:08.189Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://yoursite.com/2019/06/26/markdown%E8%AF%AD%E6%B3%95/</loc>
     
-    <lastmod>2019-06-25T23:15:55.091Z</lastmod>
+    <lastmod>2019-06-25T23:22:32.763Z</lastmod>
     
   </url>
   
